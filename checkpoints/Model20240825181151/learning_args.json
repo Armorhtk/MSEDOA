@@ -1,0 +1,27 @@
+{
+    "dataset_name": "data_ongrid_100k",
+    "train_batch_size": 256,
+    "val_batch_size": 1024,
+    "lr": 0.0001,
+    "epochs": 100,
+    "model_name": "MSEDOANet",
+    "scheduler_epochnums": 5,
+    "scheduler_gamma": 0.85,
+    "save_model_path": "checkpoints",
+    "seed": 42,
+    "folder_path": "./data_ongrid_100k",
+    "number_elements": 12,
+    "train_num_samples": 180000,
+    "val_num_samples": 20000,
+    "max_targets": 3,
+    "snapshot": 10,
+    "strategy": "random",
+    "min_angle": -60,
+    "max_angle": 60,
+    "min_angleMargin": 10,
+    "SNR_levels": [
+        0,
+        35
+    ],
+    "SumlationSEED": 42
+}
