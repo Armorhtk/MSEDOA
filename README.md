@@ -15,7 +15,7 @@
 ## 💡 Methodology 
 ![](image/model.png) 
 
-For DOA estimation, our designed CNN is mainly obtained based on the modification of basic Sequeeze-and-Excitation network structure. It consists of a convolutional layer, four SE blocks, two pooling layers, and a fully connected layer. The detailed structure is shown in Figure.
+For DOA estimation, the MSEDOA framework integrates multi-scale feature extraction, channel attention mechanisms, and SE-ResNet, all of which are essential for capturing the complex nonlinear relationships between raw signals and their corresponding DOAs.
 
 ## 🛠️ Setup
 **Step1:** create a new conda environment.
@@ -31,7 +31,7 @@ pip install requestments.txt
 
 **Step2:** Generate simulation data.
 
-If you need to use the same dataset as in the paper, you can download the 3.66GB `data_ongrid_250k` dataset from the [Baidu Cloud Link](https://pan.baidu.com/s/1-sgL2OMtSWRB7eFCq9bPpw?pwd=b17n).
+If you need to use the same dataset as in the paper, you can download the 1.27GB `data_ongrid_250k` dataset from the [Baidu Cloud Link](https://pan.baidu.com/s/1-sgL2OMtSWRB7eFCq9bPpw?pwd=b17n).
 
 ```bash
 python data_gen.py 
@@ -43,8 +43,9 @@ python data_gen.py
   --snapshot 10 \
   --min_angle -60 \
   --max_angle 60 \
+  --SumlationSEED 42
 ```
-The data is stored in the `data_ongrid_100k` folder with two sub-folders `train` and `Val` for the signal and label tensor data under different snrs.
+The data is stored in the `data_ongrid_100k` folder with two sub-folders `train` and `Val` for the signal and label tensor data under different SNR.
 
 
 ## ⏳ Training
@@ -71,7 +72,17 @@ DOA Performance            |  DOA Errors
 ![](image/ESPRIT.png)  | ![](image/ESPRIT_errors.png)
 ![](image/IAA.png)        | ![](image/IAA_errors.png)
 
+**Experiment B:** Testing the DOA estimation performance of difference SNR. The finished program allows you to view the results in the image folder. Set the signal-to-noise ratio range -20 to 30 dB. $\theta_1$ ranges $[-60^{\circ},53^{\circ}]$ to create a more realistic continuous angular distribution, and $\theta_2$ is 6.1° apart from $\theta_1$. Test the performance and error of different DOA estimation methods on the same simulation data.
+
+
+```bash
+python Evaluation_SNR4RMSE.py
+```
+
+![](image/SNR4RMSE.png)
+
 ## 📜Citation
+
 If you find this work helpful for your project,please consider citing the following repository:
 
 ```bibtex
