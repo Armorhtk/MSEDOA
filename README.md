@@ -7,7 +7,7 @@
 
 ## 📰 News
 
-**[2024.0830]** Model checkpoints and training logs are released!
+**[2024.0830]** Model checkpoints and training logs are released! [best_model.pth](https://pan.baidu.com/s/1BEAkIe6uEQlNMh6o9CkI9w?pwd=an2c) should be placed in`checkpoints/Model20240825181151` to reproduce the experimental results.
 
 **[2024.0825]** Code and paper of MSEDOA are released! 
 
@@ -31,7 +31,7 @@ pip install requestments.txt
 
 **Step2:** Generate simulation data.
 
-If you need to use the same dataset as in the paper, you can download the 1.27GB `data_ongrid_250k` dataset from the [Baidu Cloud Link](https://pan.baidu.com/s/1-sgL2OMtSWRB7eFCq9bPpw?pwd=b17n).
+If you need to use the same dataset as in the paper, you can download the 1.27GB `data_ongrid_250k` dataset from the [Baidu Cloud Link](https://pan.baidu.com/s/1CsVr9gfivB6YcYrI3aC82w?pwd=5dkp).
 
 ```bash
 python data_gen.py 
