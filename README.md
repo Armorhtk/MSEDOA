@@ -1,9 +1,6 @@
 # DoAMoE
 
   📍 This is an official PyTorch implementation **[MSEDOA: Enhancing DOA Estimation with Multiscale Squeeze-and-Excitation Networks for Automotive Millimeter-Wave Radar](https://github.com/Armorhtk/MSEDOA)**
-> Tingkai Hu, Shuang Sun, Zhenyu Wu, Chuandong Li, Hailin Xiong, Luo Zhen
-> Southwest University
-
 
 ## 📰 News
 
@@ -88,7 +85,7 @@ If you find this work helpful for your project,please consider citing the follow
 ```bibtex
 @misc{Armorhtk2024doa,
   title = {MSEDOA: Enhancing DOA Estimation with Multiscale Squeeze-and-Excitation Networks for Automotive Millimeter-Wave Radar},
-  author = {Tingkai Hu and Shuang Sun and Zhenyu Wu and Chuandong Li and Hailin Xiong and Luo Zhen},
+  author = {Tingkai Hu and Shuang Sun and Zhenyu Wu and Chuandong Li and Hailing Xiong and Luo Zhen},
   publisher = {GitHub},
   url = {https://github.com/Armorhtk/MSEDOA},
   year = {2024},
