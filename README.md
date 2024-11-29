@@ -4,9 +4,11 @@
 
 ## 📰 News
 
+**[TBC]** Paper accepted and is waiting for publication.
+
 **[2024.0830]** Model checkpoints and training logs are released! [best_model.pth](https://pan.baidu.com/s/1BEAkIe6uEQlNMh6o9CkI9w?pwd=an2c) should be placed in`checkpoints/Model20240825181151` to reproduce the experimental results.
 
-**[2024.0825]** Code and paper of MSEDOA are released! 
+**[2024.0825]** Code of MSEDOA are released! 
 
 
 ## 💡 Methodology 
