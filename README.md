@@ -1,10 +1,10 @@
 # DoAMoE
 
-  📍 This is an official PyTorch implementation **[MSEDOA: Enhancing DOA Estimation with Multiscale Squeeze-and-Excitation Networks for Automotive Millimeter-Wave Radar](https://github.com/Armorhtk/MSEDOA)**
+  📍 This is an official PyTorch implementation **[MSEDOA: Enhancing DOA Estimation with Multiscale Squeeze-and-Excitation Networks for Automotive Millimeter-Wave Radar](https://ieeexplore.ieee.org/document/10756221)**
 
 ## 📰 News
 
-**[TBC]** Paper accepted and is waiting for publication.
+**[2024.1126]** Paper accepted and published.
 
 **[2024.0830]** Model checkpoints and training logs are released! [best_model.pth](https://pan.baidu.com/s/1BEAkIe6uEQlNMh6o9CkI9w?pwd=an2c) should be placed in`checkpoints/Model20240825181151` to reproduce the experimental results.
 
@@ -85,12 +85,13 @@ python Evaluation_SNR4RMSE.py
 If you find this work helpful for your project,please consider citing the following repository:
 
 ```bibtex
-@misc{Armorhtk2024doa,
-  title = {MSEDOA: Enhancing DOA Estimation with Multiscale Squeeze-and-Excitation Networks for Automotive Millimeter-Wave Radar},
-  author = {Tingkai Hu and Shuang Sun and Zhenyu Wu and Chuandong Li and Hailing Xiong and Luo Zhen},
-  publisher = {GitHub},
-  url = {https://github.com/Armorhtk/MSEDOA},
-  year = {2024},
+@inproceedings{hu2024msedoa,
+  title={MSEDOA: Enhancing DOA Estimation with Multiscale Squeeze-and-Excitation Networks for Automotive Millimeter-Wave Radar},
+  author={Hu, Tingkai and Sun, Shuang and Wu, Zhenyu and Li, Chuandong and Zhan, Choujun and Xiong, Hailing and Luo, Zhen},
+  booktitle={2024 IEEE International Symposium on Product Compliance Engineering-Asia (ISPCE-ASIA)},
+  pages={1--4},
+  year={2024},
+  organization={IEEE}
 }
 ```
 
