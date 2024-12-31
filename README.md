@@ -1,4 +1,4 @@
-# DoAMoE
+# MSEDoA
 
   📍 This is an official PyTorch implementation **[MSEDOA: Enhancing DOA Estimation with Multiscale Squeeze-and-Excitation Networks for Automotive Millimeter-Wave Radar](https://ieeexplore.ieee.org/document/10756221)**
 
